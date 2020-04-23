@@ -10,7 +10,7 @@ def update_counting_hash(hash, key)
   if hash[key]
     hash[key] += 1 
   else 
-    update_hash.push[key]
+    update_hash.push[key:1]
   end
 end
   
